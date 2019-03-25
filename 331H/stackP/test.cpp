@@ -1,4 +1,5 @@
-/*This is my first modification*/
+/*This is my modification*/
+/*based on Nikhil jindal from geeks4 geeks(thanks!)*/
 #include<iostream>
 #include<string>
 #include<cctype>
