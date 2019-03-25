@@ -1,0 +1,26 @@
+example structure of a linked list
+a node had two fields, one stores actual data,
+one pointer point to the next node
+
+struct node
+{
+   <x> value;  // at least one variable for data section
+   node * next   // the pointer pointes to the next node
+}
+
+void inserting value(<> value)
+{
+  node *temp = new node;
+  if(head == nullptr) { temp->value = value; head = temp;}
+  else
+  {
+     temp->value = value;
+     temp->next = head;
+     head = temp;
+  }
+
+}
+
+when you assign a pointer to another pointer, eg
+temp = head;  you are assiging head's address to temp
+now temp has the same address as head;

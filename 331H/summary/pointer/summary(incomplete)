@@ -1,0 +1,10 @@
+Pointers are symbolic representation of addresses.
+They enable programs to simulate call-by-reference as well as to create
+and manipulate dynamic data structures.
+how to use pointer:
+int  *ptr = %var;
+      *ptr = 20;
+
+
+
+smart pointer and container(vector)   
